@@ -20,6 +20,7 @@ export const sendVerificationCode = asyncHandler(async (req, res) => {
                     success: false,
                     message: 'Email already in use! Please try a different email!',
                 });
+                //ch
             }
         } else if (request_type === 'forgotpassword') {
             // Vérifier si l'e-mail existe pour la réinitialisation de mot de passe
